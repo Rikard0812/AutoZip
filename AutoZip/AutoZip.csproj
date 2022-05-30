@@ -7,16 +7,34 @@
 
     <Version>1.0.0.23</Version>
     <AssemblyVersion>1.0.0.23</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+
     <Authors>Rikard Andersson</Authors>
     <Company>Rikard Andersson Zip AB</Company>
+    <Owner>Rikard Andersson</Owner>
+    <Copyright>Copyright (c) Rikard,2022.</Copyright>
     <Description>AutoZips a file</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Rikard0812/AutoZip
 </PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Rikard0812/AutoZip</RepositoryUrl>
-    <PackageTags>Zip;</PackageTags>
+    <RepositoryUrl>https://github.com/Rikard0812.git/AutoZip</RepositoryUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageTags>c#;csharp;dotnet;core;.net</PackageTags>
     <ApplicationIcon>zip.ico</ApplicationIcon>
     <PackageIcon>zip.png</PackageIcon>
 
   </PropertyGroup>
+
+  <ItemGroup>
+	  <Content Include="./Icons/json-file.ico" Pack="true" PackagePath="\" />
+	  <Content Include="./Icons/json-file.png" Pack="true" PackagePath="\" />
+	  <Content Include="../readme.md" Pack="true" PackagePath="\" />
+	  <Content Include="../LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 
 </Project>
