@@ -14,9 +14,8 @@
 </PackageProjectUrl>
     <RepositoryUrl>https://github.com/Rikard0812/AutoZip</RepositoryUrl>
     <PackageTags>Zip;</PackageTags>
-    <ApplicationIcon>.ico fil som representerar ditt
-projekt</ApplicationIcon>
-    <PackageIcon>.png fil som representerar ditt projekt</PackageIcon>
+    <ApplicationIcon>zip.ico</ApplicationIcon>
+    <PackageIcon>zip.png</PackageIcon>
 
   </PropertyGroup>
 
