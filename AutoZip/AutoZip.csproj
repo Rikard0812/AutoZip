@@ -4,6 +4,20 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Version>1.0.0.23</Version>
+    <AssemblyVersion>1.0.0.23</AssemblyVersion>
+    <Authors>Rikard Andersson</Authors>
+    <Company>Rikard Andersson Zip AB</Company>
+    <Description>AutoZips a file</Description>
+    <PackageProjectUrl>https://github.com/Rikard0812/AutoZip
+</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Rikard0812/AutoZip</RepositoryUrl>
+    <PackageTags>Zip;</PackageTags>
+    <ApplicationIcon>.ico fil som representerar ditt
+projekt</ApplicationIcon>
+    <PackageIcon>.png fil som representerar ditt projekt</PackageIcon>
+
   </PropertyGroup>
 
 </Project>
