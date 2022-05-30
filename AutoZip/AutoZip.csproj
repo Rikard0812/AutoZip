@@ -23,8 +23,7 @@
     <PackageTags>c#;csharp;dotnet;core;.net</PackageTags>
     <ReleaseNotes>Lots of bug fixes and optimizations.</ReleaseNotes> 
 
-    <ApplicationIcon>/Icons/zip.ico</ApplicationIcon>
-    <PackageIcon>/Icons/zip.png</PackageIcon>
+
 
   </PropertyGroup>
 
