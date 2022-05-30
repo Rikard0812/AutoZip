@@ -35,7 +35,7 @@ jobs:
       - name: Publish AutoZip
         uses: brandedoutcast/publish-nuget@v2.5.2
         with:
-        PROJECT_FILE_PATH: AutoZip/AutoZip.csproj
+        PROJECT_FILE_PATH: /AutoZip/AutoZip.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
         PACKAGE_NAME: AutoZip
 
