@@ -23,14 +23,12 @@
     <PackageTags>c#;csharp;dotnet;core;.net</PackageTags>
     <ReleaseNotes>Lots of bug fixes and optimizations.</ReleaseNotes> 
 
-    <ApplicationIcon>json-file.ico</ApplicationIcon>
-    <PackageIcon>content/zip.png</PackageIcon>
+    <ApplicationIcon>/Icons/zip.ico</ApplicationIcon>
+    <PackageIcon>/Icons/zip.png</PackageIcon>
 
   </PropertyGroup>
 
   <ItemGroup>
-	  <Content Include="./Icons/json-file.ico" Pack="true" PackagePath="\" />
-	  <Content Include="./Icons/json-file.png" Pack="true" PackagePath="\" />
 	  <Content Include="../readme.md" Pack="true" PackagePath="\" />
 	  <Content Include="../LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
